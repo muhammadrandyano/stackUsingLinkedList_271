@@ -106,6 +106,12 @@ int main()
             cout << "Stack is empaty.Cannot pop" << endl;
            }
            break;
+        case 3:
+           if (stack.isEmpaty())
+           {
+            stack.peek();
+           }
+            
         }
     }
 }
