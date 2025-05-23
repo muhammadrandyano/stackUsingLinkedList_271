@@ -116,6 +116,11 @@ int main()
             cout << "Stack is Empaty.NO top value" << endl;
            }
            break;
+        case 4:
+           cout << "Exiting program." << endl;
+           break;      
         }
+        cout << endl;
     }
+    return 0;
 }
