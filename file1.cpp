@@ -65,4 +65,9 @@ class Stack
             cout << endl;
         }
     }
+
+    bool isEmpaty()
+    {
+        return top = NULL;
+    }
 };
