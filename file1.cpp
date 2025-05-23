@@ -111,7 +111,11 @@ int main()
            {
             stack.peek();
            }
-            
+           else
+           {
+            cout << "Stack is Empaty.NO top value" << endl;
+           }
+           break;
         }
     }
 }
