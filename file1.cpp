@@ -33,4 +33,17 @@ class Stack
         cout << "Push value: " << value << endl;
         return value;
     }
+
+    void pop()
+    {
+        if (isEmpaty()) 
+        {
+            cout << "Stack is empaty," << endl;
+        }
+
+        Node *temp = top;
+        top = top->next;
+        cout << "Popped value: " << top->data << endl;
+        delete temp;
+    }
 };
